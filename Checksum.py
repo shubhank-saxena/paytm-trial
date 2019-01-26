@@ -121,13 +121,14 @@ def __decode__(to_decode, iv, key):
 
 if __name__ == "__main__":
     params = {
-        "MID": "mid",
-        "ORDER_ID": "order_id",
-        "CUST_ID": "cust_id",
-        "TXN_AMOUNT": "1",
-        "CHANNEL_ID": "WEB",
-        "INDUSTRY_TYPE_ID": "Retail",
-        "WEBSITE": "xxxxxxxxxxx"
+        'MID':'WorldP64425807474247',
+        'ORDER_ID':'dddgfgfeeed',
+        'TXN_AMOUNT':'1',
+        'CUST_ID':'acfff@paytm.com',
+        'INDUSTRY_TYPE_ID':'Retail',
+        'WEBSITE':'worldpressplg',
+        'CHANNEL_ID':'WEB',
+
     }
 
     print(verify_checksum(
